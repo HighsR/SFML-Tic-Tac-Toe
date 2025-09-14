@@ -57,7 +57,10 @@ Bash
 g++ -std=c++17 -I/path/to/your/sfml/include -L/path/to/your/sfml/lib \
     src/*.cpp -o TicTacToe \
     -lsfml-graphics -lsfml-window -lsfml-system
-Note: For a more robust and cross-platform build process, using a build system like CMake is highly recommended.
+
+Note: 
+
+For a more robust and cross-platform build process, using a build system like CMake is highly recommended.
 
 3. Run the Game
 Once compiled successfully, an executable file will be created.
